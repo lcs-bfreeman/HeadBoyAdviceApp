@@ -16,6 +16,21 @@ struct ContentView: View {
                 .padding(.top)
             Spacer()
             
+            if searchInput == "" {
+                
+                Spacer()
+                Animation()
+
+                Text("Type Your Problem Above")
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.gray)
+                    .opacity(0.3)
+                
+                Spacer()
+                Spacer()
+            } else {
+                
+            }
             
             
         }
