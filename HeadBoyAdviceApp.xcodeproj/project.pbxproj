@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D775F24025F91E4700C6E920 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775F23F25F91E4700C6E920 /* SearchBarView.swift */; };
 		D7B4045025EFF10900160310 /* HeadBoyAdviceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B4044F25EFF10900160310 /* HeadBoyAdviceAppApp.swift */; };
 		D7B4045225EFF10900160310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B4045125EFF10900160310 /* ContentView.swift */; };
 		D7B4045425EFF10D00160310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B4045325EFF10D00160310 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D775F23F25F91E4700C6E920 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		D7B4044C25EFF10900160310 /* HeadBoyAdviceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadBoyAdviceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B4044F25EFF10900160310 /* HeadBoyAdviceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadBoyAdviceAppApp.swift; sourceTree = "<group>"; };
 		D7B4045125EFF10900160310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D775F23E25F91E2C00C6E920 /* Viewa */ = {
+			isa = PBXGroup;
+			children = (
+				D775F23F25F91E4700C6E920 /* SearchBarView.swift */,
+			);
+			path = Viewa;
+			sourceTree = "<group>";
+		};
 		D7B4044325EFF10800160310 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 		D7B4044E25EFF10900160310 /* HeadBoyAdviceApp */ = {
 			isa = PBXGroup;
 			children = (
+				D775F23E25F91E2C00C6E920 /* Viewa */,
 				D7B4044F25EFF10900160310 /* HeadBoyAdviceAppApp.swift */,
 				D7B4045125EFF10900160310 /* ContentView.swift */,
 				D7B4045325EFF10D00160310 /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B4045225EFF10900160310 /* ContentView.swift in Sources */,
+				D775F24025F91E4700C6E920 /* SearchBarView.swift in Sources */,
 				D7B4045025EFF10900160310 /* HeadBoyAdviceAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
