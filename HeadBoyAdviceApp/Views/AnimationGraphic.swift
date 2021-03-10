@@ -22,10 +22,10 @@ struct Animation: View {
             .padding()
             .scaledToFit()
             .onReceive(timer) { input in
-                        anim = "Image-2"
+                        anim = "ArrowSmall"
         }
             .onReceive(timer2) { input in
-                        anim = "Image-1"
+                        anim = "RedArrow"
         }
         
     }
