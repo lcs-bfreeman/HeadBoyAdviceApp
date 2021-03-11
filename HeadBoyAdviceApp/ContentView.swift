@@ -9,36 +9,47 @@ import SwiftUI
 
 struct ContentView: View {
     @State var searchInput = ""
+    @State var next = false
     
     var body: some View {
-        VStack {
-            SearchBarView(text: $searchInput)
-                .padding(.top)
-            Spacer()
-            
-            if searchInput == "" {
+        if next == true {
+            VStack {
+                SearchBarView(text: $searchInput)
+                    .padding(.top)
+                Spacer()
                 
-                Spacer()
-                Animation()
-
-                Text("Type Your Problem Above")
-                    .fontWeight(.semibold)
-                    .foregroundColor(Color.gray)
-                    .opacity(0.3)
+                if searchInput == "" {
+                    
+                    Spacer()
+                    Animation()
+                    
+                    Text("Type Your Problem Above")
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.gray)
+                        .opacity(0.3)
+                    
+                    Spacer()
+                    Spacer()
+                    Button("Info...") {
+                        
+                    }
+                    .padding(.bottom)
+                    
+                } else {
+                    
+                }
                 
-                Spacer()
-                Spacer()
-            } else {
                 
             }
-            
+        } else {
+            WelcomScreen()
+            }
             
         }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
