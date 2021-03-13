@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "welcome short.png",
+      "filename" : "crouch3.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "welcome short-1.png",
+      "filename" : "crouch3-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "welcome short-2.png",
+      "filename" : "crouch3-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

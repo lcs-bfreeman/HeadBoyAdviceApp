@@ -10,8 +10,8 @@ import SwiftUI
 struct Animation: View {
     @State var anim = "Image-1"
     @State var bob = true
-    @State private var timer = Timer.publish(every: 2, on: .main, in: .common).autoconnect()
-    @State private var timer2 = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    @State private var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    @State private var timer2 = Timer.publish(every: 0.5, on: .main, in: .common).autoconnect()
     var body: some View {
 
 
@@ -21,12 +21,14 @@ struct Animation: View {
             .resizable()
             .padding()
             .scaledToFit()
+            
+
             .onReceive(timer) { input in
-                        anim = "ArrowSmall"
+                        anim = "jump"
         }
             .onReceive(timer2) { input in
-                        anim = "RedArrow"
-        }
+                        anim = "crouch"
+            }
         
     }
 }
