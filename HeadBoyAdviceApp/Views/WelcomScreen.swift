@@ -29,20 +29,8 @@ struct WelcomScreen: View {
                 .padding([.leading, .bottom, .trailing])
         }
         Spacer()
-
-        HStack{
-            
-            Button("Info..."){
-                
-            }
-            .padding([.leading, .bottom])
-            Spacer()
-            Button("Next") {
-                next = true
-            }
-            .padding([.bottom, .trailing])
-        }
-    }
+        
+}
 }
 
 struct WelcomScreen_Previews: PreviewProvider {

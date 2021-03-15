@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  AnimationTest
+//  Animationloading.swift
+//  HeadBoyAdviceApp
 //
-//  Created by Ben Freeman on 2021-03-08.
+//  Created by Ben Freeman on 2021-03-15.
 //
 
 import SwiftUI
 
-struct Animation: View {
+struct Animationloading: View {
     @State var anim = "jump"
     @State var bob = true
     @State private var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -33,8 +33,8 @@ struct Animation: View {
     }
 }
 
-struct AnimationGraphic_Previews: PreviewProvider {
+struct Animationloading_Previews: PreviewProvider {
     static var previews: some View {
-        Animation()
+        Animationloading()
     }
 }
