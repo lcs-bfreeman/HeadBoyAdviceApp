@@ -16,6 +16,7 @@
 		D7B4045425EFF10D00160310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B4045325EFF10D00160310 /* Assets.xcassets */; };
 		D7B4045725EFF10D00160310 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B4045625EFF10D00160310 /* Preview Assets.xcassets */; };
 		D7DDA86325FFBFF200797B91 /* SearchInputEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDA86225FFBFF200797B91 /* SearchInputEmpty.swift */; };
+		D7DDA86B2601322600797B91 /* HeadBoySearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDA86A2601322600797B91 /* HeadBoySearchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D7B4045625EFF10D00160310 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D7B4045825EFF10D00160310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7DDA86225FFBFF200797B91 /* SearchInputEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInputEmpty.swift; sourceTree = "<group>"; };
+		D7DDA86A2601322600797B91 /* HeadBoySearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadBoySearchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				D775F23F25F91E4700C6E920 /* SearchBarView.swift */,
+				D7DDA86A2601322600797B91 /* HeadBoySearchScreen.swift */,
 				D7DDA86225FFBFF200797B91 /* SearchInputEmpty.swift */,
 				D75BDCF525FA6732007B8670 /* WelcomScreen.swift */,
 				D775F24625F9238400C6E920 /* AnimationGraphic.swift */,
@@ -167,6 +170,7 @@
 				D7B4045025EFF10900160310 /* HeadBoyAdviceAppApp.swift in Sources */,
 				D75BDCFA25FA9D06007B8670 /* InfoView.swift in Sources */,
 				D7DDA86325FFBFF200797B91 /* SearchInputEmpty.swift in Sources */,
+				D7DDA86B2601322600797B91 /* HeadBoySearchScreen.swift in Sources */,
 				D775F24725F9238400C6E920 /* AnimationGraphic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
