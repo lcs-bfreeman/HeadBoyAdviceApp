@@ -33,6 +33,18 @@ struct WelcomScreen: View {
 }
 }
 
+
+//            Button("Info..."){
+//                self.info.toggle()
+//            }
+//            .padding([.leading, .bottom])
+//            Spacer()
+//            Button("Next") {
+//                next = true
+//            }
+//            .padding([.bottom, .trailing])
+//
+           
 struct WelcomScreen_Previews: PreviewProvider {
     static var previews: some View {
         WelcomScreen()
