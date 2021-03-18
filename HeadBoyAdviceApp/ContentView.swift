@@ -21,35 +21,6 @@ struct ContentView: View {
             
             VStack {
                 
-                //
-                //                    VStack {
-                //
-                //                        SearchBarView(text: $searchInput)
-                //
-                //                        Spacer()
-                //
-                //                        Spacer()
-                //
-                //                        if searchInput == "" {
-                //
-                //                            Spacer()
-                //                            Animation()
-                //
-                //                            Text("Type Your Problem Above")
-                //                                .fontWeight(.semibold)
-                //                                .foregroundColor(Color.gray)
-                //                                .opacity(0.3)
-                //
-                //                            Spacer()
-                //                            Spacer()
-                //
-                //
-                //
-                //                        } else {
-                //
-                //                        }
-                //                    }
-                
                 
                 
                 
@@ -57,6 +28,24 @@ struct ContentView: View {
                 WelcomScreen()
                 Spacer()
                 HStack {
+                    // old sheet type, keeping in case I want to use it later                    Button("Info...") {
+                    //                        showingSheet = true
+                    //                    }
+                    //                    .actionSheet(isPresented: $showingSheet) {
+                    //                        ActionSheet(
+                    //                            title: Text("What do you want to do?"),
+                    //                            message: Text("There's only one choice..."),
+                    //                            buttons: [.default(Text("Dismiss Action Sheet"))]
+                    //                    )}
+                    Button("Info...") {
+                        showingSheet.toggle()
+                    }
+                    .sheet(isPresented: $showingSheet) {
+                        SheetView()
+                    }
+                    .padding()
+                    
+                    
                     Spacer()
                     NavigationLink(destination: SearchViewScreen()) {
                         
@@ -68,7 +57,7 @@ struct ContentView: View {
                 
                 
                 
-      
+                
             }
             .navigationTitle("Head Boy Advice")
             .navigationBarHidden(true)
@@ -81,17 +70,13 @@ struct ContentView: View {
         
         
         
-        // Tool bar items, Sheets
-        
-        
-        //        if info == true {
-        //            InfoView()
-        //        }
+       
         
         
     }
     
 }
+
 
 
 
