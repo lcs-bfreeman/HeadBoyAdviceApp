@@ -9,7 +9,6 @@ import SwiftUI
 
 struct Animation: View {
     @State var anim = "jump"
-    @State var bob = true
     @State private var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @State private var timer2 = Timer.publish(every: 0.5, on: .main, in: .common).autoconnect()
     var body: some View {

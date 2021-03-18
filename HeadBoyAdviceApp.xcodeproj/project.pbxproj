@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D75BDCF625FA6732007B8670 /* WelcomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75BDCF525FA6732007B8670 /* WelcomScreen.swift */; };
-		D75BDCFA25FA9D06007B8670 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75BDCF925FA9D06007B8670 /* InfoView.swift */; };
 		D775F24025F91E4700C6E920 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775F23F25F91E4700C6E920 /* SearchBarView.swift */; };
 		D775F24725F9238400C6E920 /* AnimationGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775F24625F9238400C6E920 /* AnimationGraphic.swift */; };
 		D7B4045025EFF10900160310 /* HeadBoyAdviceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B4044F25EFF10900160310 /* HeadBoyAdviceAppApp.swift */; };
@@ -23,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		D75BDCF525FA6732007B8670 /* WelcomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomScreen.swift; sourceTree = "<group>"; };
-		D75BDCF925FA9D06007B8670 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		D775F23F25F91E4700C6E920 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		D775F24625F9238400C6E920 /* AnimationGraphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGraphic.swift; sourceTree = "<group>"; };
 		D7B4044C25EFF10900160310 /* HeadBoyAdviceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadBoyAdviceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +56,6 @@
 				D7DDA86225FFBFF200797B91 /* SearchInputEmpty.swift */,
 				D75BDCF525FA6732007B8670 /* WelcomScreen.swift */,
 				D775F24625F9238400C6E920 /* AnimationGraphic.swift */,
-				D75BDCF925FA9D06007B8670 /* InfoView.swift */,
 				D7DDA8CC2603930E00797B91 /* SheetView.swift */,
 			);
 			path = Views;
@@ -176,7 +173,6 @@
 				D775F24025F91E4700C6E920 /* SearchBarView.swift in Sources */,
 				D7B4045025EFF10900160310 /* HeadBoyAdviceAppApp.swift in Sources */,
 				D7DDA8C726025F9100797B91 /* SearchViewScreen.swift in Sources */,
-				D75BDCFA25FA9D06007B8670 /* InfoView.swift in Sources */,
 				D7DDA86325FFBFF200797B91 /* SearchInputEmpty.swift in Sources */,
 				D7DDA86B2601322600797B91 /* HeadBoySearchScreen.swift in Sources */,
 				D775F24725F9238400C6E920 /* AnimationGraphic.swift in Sources */,
