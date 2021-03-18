@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SearchViewScreen: View {
     @State var searchInput = ""
+    @State private var showingSheet = false
 
     var body: some View {
             // existing contents…
@@ -35,6 +36,13 @@ struct SearchViewScreen: View {
                 Spacer()
                 Spacer()
                 
+                Button("Info...") {
+                    showingSheet.toggle()
+                }
+                .sheet(isPresented: $showingSheet) {
+                    SheetView()
+                }
+                .padding()
                 
                 
             } else {
@@ -45,6 +53,7 @@ struct SearchViewScreen: View {
         .navigationBarTitleDisplayMode(.inline)
         
     }
+    
 }
 struct SearchViewScreen_Previews: PreviewProvider {
     static var previews: some View {
