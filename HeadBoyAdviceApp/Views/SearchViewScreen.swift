@@ -16,6 +16,7 @@ struct SearchViewScreen: View {
         VStack {
             
             SearchBarView(text: $searchInput)
+                .padding(.top)
                 
             Spacer()
             
@@ -40,12 +41,17 @@ struct SearchViewScreen: View {
                 
             }
         }
+        .navigationTitle("Search for advice")
+        .navigationBarTitleDisplayMode(.inline)
         
     }
 }
 struct SearchViewScreen_Previews: PreviewProvider {
     static var previews: some View {
-        SearchViewScreen()
+        NavigationView {
+            SearchViewScreen()
+
+        }
     
     }
 }
