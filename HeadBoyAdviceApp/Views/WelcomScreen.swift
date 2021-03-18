@@ -28,8 +28,7 @@ struct WelcomScreen: View {
                 .multilineTextAlignment(.center)
                 .padding([.leading, .bottom, .trailing])
         }
-        Spacer()
-        
+
 }
 }
 

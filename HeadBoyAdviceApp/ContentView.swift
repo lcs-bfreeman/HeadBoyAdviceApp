@@ -8,81 +8,84 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var searchInput = ""
     @State var next = false
+    @State var searchInput = ""
+    
     @State var info = false
     @State private var showingSheet = false
-
+    
     var body: some View {
         
         NavigationView {
+            
+            
             VStack {
+                
+                //
+                //                    VStack {
+                //
+                //                        SearchBarView(text: $searchInput)
+                //
+                //                        Spacer()
+                //
+                //                        Spacer()
+                //
+                //                        if searchInput == "" {
+                //
+                //                            Spacer()
+                //                            Animation()
+                //
+                //                            Text("Type Your Problem Above")
+                //                                .fontWeight(.semibold)
+                //                                .foregroundColor(Color.gray)
+                //                                .opacity(0.3)
+                //
+                //                            Spacer()
+                //                            Spacer()
+                //
+                //
+                //
+                //                        } else {
+                //
+                //                        }
+                //                    }
+                
+                
+                
+                
+                
                 WelcomScreen()
-                
-                Text("").padding()
-                    .toolbar {
-                        ToolbarItemGroup(placement: .bottomBar) {
-                            Button("Info...") {
-                                showingSheet = true
-                            }
-                            .actionSheet(isPresented: $showingSheet) {
-                                ActionSheet(
-                                    title: Text("What do you want to do?"),
-                                    message: Text("There's only one choice..."),
-                                    buttons: [.default(Text("Dismiss Action Sheet"))]
-                            )}
-                            Spacer()
-
-                            Button("Next") {
-                                next = true
-                            }
-                        }
-                    }
-            }
-            }
-            
-           
-
-                
-               
-                
-
-        
-        // Tool bar items, Sheets
-        if next == true {
-            
-            VStack {
-                
-                SearchBarView(text: $searchInput)
-                    .padding(.top)
                 Spacer()
-                
-                Spacer()
-                
-                if searchInput == "" {
-                    
-                    SearchInputEmpty()
-                    
-                    Button("Info...") {
-                        self.info.toggle()
+                HStack {
+                    Spacer()
+                    NavigationLink(destination: SearchViewScreen()) {
+                        
+                        Text("Next")
+                        
                     }
-                    .padding(.bottom)
-                    
-                    
-                } else {
-                    
+                    .padding()
                 }
                 
                 
+                
+      
             }
-        } else {
+            .navigationTitle("Head Boy Advice")
+            
             
             
         }
         
-        if info == true {
-            InfoView()
-        }
+        
+        
+        
+        
+        // Tool bar items, Sheets
+        
+        
+        //        if info == true {
+        //            InfoView()
+        //        }
         
         
     }
