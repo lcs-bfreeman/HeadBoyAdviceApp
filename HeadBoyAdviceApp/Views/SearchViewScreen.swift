@@ -49,8 +49,7 @@ struct SearchViewScreen: View {
                 
             }
         }
-        .navigationTitle("Search for advice")
-        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarHidden(true)
         
     }
     

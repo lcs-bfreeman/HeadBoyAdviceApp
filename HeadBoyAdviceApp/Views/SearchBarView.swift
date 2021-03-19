@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SearchBarView: View {
     
-    var placeholderText: String = "Enter words here..."
+    var placeholderText: String = "Search for advice..."
     
     @Binding var text: String
     
