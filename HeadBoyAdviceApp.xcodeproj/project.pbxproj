@@ -18,6 +18,7 @@
 		D7DDA86B2601322600797B91 /* HeadBoySearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDA86A2601322600797B91 /* HeadBoySearchScreen.swift */; };
 		D7DDA8C726025F9100797B91 /* SearchViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDA8C626025F9000797B91 /* SearchViewScreen.swift */; };
 		D7DDA8CD2603930E00797B91 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDA8CC2603930E00797B91 /* SheetView.swift */; };
+		D7DDA8DD2604FF5D00797B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DDA8DC2604FF5D00797B91 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D7DDA86A2601322600797B91 /* HeadBoySearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadBoySearchScreen.swift; sourceTree = "<group>"; };
 		D7DDA8C626025F9000797B91 /* SearchViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewScreen.swift; sourceTree = "<group>"; };
 		D7DDA8CC2603930E00797B91 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		D7DDA8DC2604FF5D00797B91 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				D7B4045325EFF10D00160310 /* Assets.xcassets */,
 				D7B4045825EFF10D00160310 /* Info.plist */,
 				D7B4045525EFF10D00160310 /* Preview Content */,
+				D7DDA8DC2604FF5D00797B91 /* LaunchScreen.storyboard */,
 			);
 			path = HeadBoyAdviceApp;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B4045725EFF10D00160310 /* Preview Assets.xcassets in Resources */,
+				D7DDA8DD2604FF5D00797B91 /* LaunchScreen.storyboard in Resources */,
 				D7B4045425EFF10D00160310 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
