@@ -13,13 +13,13 @@ struct SearchViewScreen: View {
     var store = advice
     
     var body: some View {
-            // existing contents…
+        // existing contents…
         
         VStack {
             
             SearchBarView(text: $searchInput)
                 .padding(.top)
-                
+            
             Spacer()
             
             Spacer()
@@ -47,7 +47,20 @@ struct SearchViewScreen: View {
                 
                 
             } else {
-                
+                NavigationView {
+                    
+                    
+                    List(advice) { thing in
+                        
+                        NavigationLink(destination: ListAdviceDetail(info: thing)) {
+                            
+                            PreviewListItem(info: thing)
+                            
+                        }
+                        
+                        
+                    }
+                }
             }
         }
         .navigationBarHidden(true)
@@ -59,8 +72,8 @@ struct SearchViewScreen_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             SearchViewScreen()
-
+            
         }
-    
+        
     }
 }
