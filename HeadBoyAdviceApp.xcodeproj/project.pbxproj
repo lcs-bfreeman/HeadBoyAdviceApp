@@ -20,6 +20,7 @@
 		D7DDA8DD2604FF5D00797B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DDA8DC2604FF5D00797B91 /* LaunchScreen.storyboard */; };
 		D7DDA8E82608EAFD00797B91 /* ListOfAdvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDA8E72608EAFD00797B91 /* ListOfAdvice.swift */; };
 		D7DDA8EC2608F45900797B91 /* PreviewListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDA8EB2608F45900797B91 /* PreviewListItem.swift */; };
+		D7DDA8EF2608F76800797B91 /* ListAdviceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDA8EE2608F76700797B91 /* ListAdviceDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D7DDA8DC2604FF5D00797B91 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7DDA8E72608EAFD00797B91 /* ListOfAdvice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfAdvice.swift; sourceTree = "<group>"; };
 		D7DDA8EB2608F45900797B91 /* PreviewListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewListItem.swift; sourceTree = "<group>"; };
+		D7DDA8EE2608F76700797B91 /* ListAdviceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAdviceDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				D7DDA8E72608EAFD00797B91 /* ListOfAdvice.swift */,
 				D7DDA8EB2608F45900797B91 /* PreviewListItem.swift */,
+				D7DDA8EE2608F76700797B91 /* ListAdviceDetail.swift */,
 			);
 			path = ListStuff;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				D7DDA8CD2603930E00797B91 /* SheetView.swift in Sources */,
 				D7DDA8E82608EAFD00797B91 /* ListOfAdvice.swift in Sources */,
 				D775F24025F91E4700C6E920 /* SearchBarView.swift in Sources */,
+				D7DDA8EF2608F76800797B91 /* ListAdviceDetail.swift in Sources */,
 				D7B4045025EFF10900160310 /* HeadBoyAdviceAppApp.swift in Sources */,
 				D7DDA8C726025F9100797B91 /* SearchViewScreen.swift in Sources */,
 				D7DDA86325FFBFF200797B91 /* SearchInputEmpty.swift in Sources */,
