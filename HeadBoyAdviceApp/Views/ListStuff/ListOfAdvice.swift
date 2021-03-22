@@ -10,6 +10,7 @@ import SwiftUI
 struct HBAD: Identifiable {
     let id = UUID()
     let title: String
+    let hint: String
     let advice: String
 
 }

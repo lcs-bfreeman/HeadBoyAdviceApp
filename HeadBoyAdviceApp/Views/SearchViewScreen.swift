@@ -10,7 +10,8 @@ import SwiftUI
 struct SearchViewScreen: View {
     @State var searchInput = ""
     @State private var showingSheet = false
-
+    var store = advice
+    
     var body: some View {
             // existing contents…
         
