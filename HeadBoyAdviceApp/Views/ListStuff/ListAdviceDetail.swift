@@ -13,6 +13,7 @@ struct ListAdviceDetail: View {
     var body: some View {
         ScrollView {
             Text(info.data)
+                .padding([.top, .leading, .trailing])
         }
         .navigationTitle(info.title)
 

@@ -20,8 +20,9 @@ let advice = [
 
         HEADS UP!!!
        If your in a test or near the end of class you may be asked to wait.
-"""
-    )
+"""),
+    HBAD (title: "How to parlay a student", data: "When you parlay a student you have to contact your head of house or one of your dawns. It is sugested to contact a head of house eaither yours or theres. In the end who ever you contact it doesn't really matter as long as they are a teacher or one of our heads of school. When you parlay somone you should be respectful and you don't have to worry abou them finding out as it's anonymous. Remember a parlay is to help somone not to get them in trouble so wheather your trying to get back at your enemies or help a freind keep in mind that the school will do it's best to help them."),
+    HBAD (title: "", data: "")
         
     
 ]

@@ -62,7 +62,10 @@ struct SearchViewScreen: View {
                             
                         }
                     }
+                    .navigationBarHidden(true)
+
                 }
+
             }
         }
         .navigationBarHidden(true)
