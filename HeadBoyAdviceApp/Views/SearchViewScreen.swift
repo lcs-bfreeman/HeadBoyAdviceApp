@@ -10,6 +10,7 @@ import SwiftUI
 struct SearchViewScreen: View {
     @State var searchInput = ""
     @State private var showingSheet = false
+    
     var store = advice
     
     var body: some View {
@@ -50,24 +51,29 @@ struct SearchViewScreen: View {
                 NavigationView {
                     
                     
-                    List(advice) { thing in
+                    List(advice.filter({ indiAdvice in
+                        return indiAdvice.title.lowercased().contains(searchInput.lowercased()) || indiAdvice.data.lowercased().contains(searchInput.lowercased())
+                    }), id: \.id) { thing in
                         
                         NavigationLink(destination: ListAdviceDetail(info: thing)) {
                             
                             PreviewListItem(info: thing)
                             
+                            
                         }
-                        
-                        
                     }
                 }
             }
         }
         .navigationBarHidden(true)
-        
     }
     
 }
+
+
+
+
+
 struct SearchViewScreen_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
